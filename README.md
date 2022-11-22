@@ -2,11 +2,11 @@
 
 ### Introduction
 
-Address Tagger is a very handy tooltip written in javascript that allows you to automatically verify wallet addresses through a personal/organization wallet address book. 
+Address Tagger is a very handy tooltip written in javascript that allows you to automatically verify wallet addresses through a personal/organization wallet address book.
 
 It does this through a wallet address book function which allows you to assign aliases to addresses. It displays the wallet alias when you select or hover over an address so that you can clearly see who owns the address.
 
-###  Benefits
+### Benefits
 
 Some of the benefits of using Address Tagger
 
@@ -14,7 +14,7 @@ Some of the benefits of using Address Tagger
 - Automatically verify & display the alias of noted wallet addresses
 - Easily organize personal/organizational wallet address books
 - Reduces the chance of sending tokens to the wrong address
-- Increases transparency 
+- Increases transparency
 
 ### Background & use case
 
@@ -36,3 +36,7 @@ In order to distinguish these two wallets, Carol can assign address A an alias, 
 - Click `Load unpacked`
 - Select this folder
 - Done
+
+### DEMO
+
+<img src="./example/demo-20221122.gif" alt="screen-recording">
