@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../assets/bulma.min.css" />
+    <link rel="stylesheet" href="../assets/toastify.min.css" />
+  </head>
+  <body style="width: 600px; background: #f0f0f0; padding: 10px">
+    <h1 class="title">
+      <img
+        src="../icons/address_tagger_32.png"
+        alt="icon"
+        style="vertical-align: middle"
+      />
+      Address Tagger
+      <button
+        id="btn-clean"
+        class="button is-small is-warning"
+        style="float: right"
+      >
+        Clean
+      </button>
+    </h1>
+
+    <div class="box mb-3">
+      <input type="file" id="input-file" accept=".csv" />
+
+      <button id="btn-import" class="button is-small is-info" disabled>
+        Import CSV
+      </button>
+      <button id="btn-export" class="button is-small is-success">
+        Export CSV
+      </button>
+    </div>
+
+    <div class="box mb-3">
+      <div class="control mb-3">
+        <input
+          id="input-address"
+          type="text"
+          name="address"
+          placeholder="address"
+          class="input is-primary"
+        />
+      </div>
+      <div class="control mb-3">
+        <input
+          id="input-name"
+          type="text"
+          name="name"
+          placeholder="name"
+          class="input is-info"
+        />
+      </div>
+      <button id="btn-submit" class="button is-small is-link">Submit</button>
+
+      <label class="checkbox" style="float: right">
+        <input type="checkbox" id="input-checkbox-auto-scan" />
+        Enable mouseover
+      </label>
+    </div>
+
+    <div id="address-list" class="box" style="word-break: break-all"></div>
+
+    <script src="../assets/toastify-js.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
